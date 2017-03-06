@@ -1,0 +1,19 @@
+### 克隆地址 
+
+	1. git clone git@github.com:pythonsoft/jekyll_demo.git
+
+### 安装rubygem, jekyll
+
+ 	1. sudo apt-get install ruby
+
+ 	2. gem install jekyll (最好先换成taobao源)
+
+
+ 		```
+ 			gem sources --remove https://rubygems.org/
+			gem sources -a https://ruby.taobao.org/
+
+		```
+
+
+ 	3. jekyll serve --port 4000
